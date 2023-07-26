@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+  font-family: poppins;
+  }
+  video-bg{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  min-height: 100%;
+  }
+  .wrapper{
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  background: rgba(158, 1, 106, 0.5);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .form{
+    padding: 90px 60px;
+  }
+
+  .wrapper .btn-area{
+    height: 45px;
+width: 100%;
+background-color: #ef4366;
+border-radius: 45px;
+text-align: center;
+font-weight: bold;
+color: #fff;
+margin-top: 10px;
+cursor: pointer;
+line-height: 45px;
+}.wrapper input{
+    border-radius: 50px;
+  font-size: 15px;
+  height: 45px;
+border: none;
+padding-left: 15px;
+width: calc(100% - 15px);
+margin-bottom: 10px;
+background: rgba(0,0,0,0.8); 
+color: #fff ;}
+
+
+.form a{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+    </style>
+<meta charset="UTF-8">
+<title>Transparent login form with video background</title>
+<!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+<video src="images/pexels-kelly-lacy-857259-1920x1080-24fps.mp4" class="video-bg" autoplay loop muted></video>
+<div class="wrapper">
+<div class="form" >
+    <form action="/login" method="post">
+      <H2>LOG IN</H2>
+<input type="text"  name="name" placeholder="Enter your Name">
+<input type="password" name="password" placeholder="Enter your Password">
+<input type="Submit" class="btn-area">
+
+<div class="link-area"><p>Don't Have Acount</p> <a href="signup.ejs">Create</a></div>
+
+</form>
+</div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
